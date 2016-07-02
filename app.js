@@ -16,10 +16,8 @@ app.get("/images", function(req, res){
             res.render("images", {parsedData: parsedData, randomNum});
         }
     });
-    console.log(randomNum);
 });
 
 app.listen(process.env.PORT, process.env.IP, function() {
     console.log("server started");
 });
-
