@@ -7,8 +7,6 @@ app.get("/", function(req, res){
     res.render("landing");
 });
 
-
-
 app.get("/images", function(req, res){
    var url = "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&page=2&api_key=HIXECXqEqbUmmHIh9ItAjyYX8a2vxHyojlXds7Qe";
    var randomNum = Math.floor(Math.random() * (24 - 1 + 1)) + 1;
