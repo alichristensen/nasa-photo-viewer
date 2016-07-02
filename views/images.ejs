@@ -3,8 +3,8 @@
 <h1>NASA Mars Rover Images</h1>
 
 <div>
-    <img src=<%= parsedData["photos"][0]["img_src"] %>>
-    <p>Date Taken: <%= parsedData["photos"][0]["earth_date"]%></p>
+    <img src=<%= parsedData["photos"][randomNum]["img_src"] %> style="width: 300px; height: 300px">
+    <p>Date Taken: <%= parsedData["photos"][randomNum]["earth_date"]%></p>
 </div>
 
 <button><a href="/images">New Picture</a></button>

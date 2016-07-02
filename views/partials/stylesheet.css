@@ -2,3 +2,7 @@ body {
     font-family: 'Inconsolata';
     background: black;
 }
+
+a{
+    color: #e91e63;
+}
